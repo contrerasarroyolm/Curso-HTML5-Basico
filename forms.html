@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+
+</head>	
+<body>
+
+
+	<!-- This is the form tag -->
+	<form>
+		
+		<label>Full Name:</label>
+		<br>
+		<input type="text" name="full name">
+
+		<br>
+		<br>
+
+		<label>Message:</label>
+		<br>
+		<textarea rows="10" cols="20"></textarea>
+		<br>
+		<button type="submit">Submit</button>
+
+	</form>
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<!-- This is the select tag -->
+	<select>
+		<option>Option 1</option>
+		<option>Option 2</option>
+	</select>
+
+
+	<!-- This is the optgroup Tag -->
+	<select>
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+
+<br>
+	<br>
+	<br>
+	<br>
+
+<form>
+  <fieldset>
+    <legend>Personalia:</legend>
+    Name: <input type="text"><br>
+    Email: <input type="text"><br>
+    Date of birth: <input type="text">
+  </fieldset>
+</form>
+
+<br>
+<br>
+<br>
+<br>
+
+<form action="/action_page.php" method="get">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+
+<br>
+<br>
+<br>
+<br>
+
+<!-- Output Tag -->
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+  <input type="range" id="a" value="50">100
+  +<input type="number" id="b" value="50">
+  =<output name="x" for="a b"></output>
+</form>
+
+</body>
+</html>

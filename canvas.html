@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<!-- This is the Canvas Tag -->
+	<canvas id="myCanvas"></canvas>
+
+	<script>
+		var canvas = document.getElementById("myCanvas");
+		var ctx = canvas.getContext("2d");
+		ctx.fillstyle = "red";
+		ctx.fillRect(10, 10, 600, 300);
+	</script>
+
+	<br>
+
+	<!-- SVG Tag -->
+	<svg width="400" height="400">
+		<circle cx="100" r="100" stroke="green" stroke-width="4" fill="black"/>
+	</svg>
+
+</body>
+</html>
